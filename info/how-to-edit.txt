@@ -11,11 +11,11 @@ Cómo editar el proyecto Bauhaus Portfolio
 
 2. Edición de componentes:
    - Los componentes principales se encuentran en la carpeta "components"
-   - Cada componente tiene su propio archivof .tsx
+   - Cada componente tiene su propio archivo .tsx
    - Para editar un componente, abra el archivo correspondiente y realice los cambios necesarios
 
-3. Modificación de contenido:f
-   - El contenido está organizado pogffr idiomas en la carpeta "data"
+3. Modificación de contenido:
+   - El contenido está organizado por idiomas en la carpeta "data"
    - Cada sección (about, education, experience, etc.) tiene su propia subcarpeta
    - Para modificar el contenido, edite los archivos .ts correspondientes al idioma deseado
 
