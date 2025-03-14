@@ -20,7 +20,7 @@ const FooterSection = ({ title, children }: { title: string; children: React.Rea
 
 export function Footer({ setActiveSection }: FooterProps) {
   const { language } = useLanguage()
-  const content = footerContent[language]
+  const content = footerContent[language as keyof typeof footerContent] || footerContent.en
 
   const contactInfo = {
     email: content.email,
