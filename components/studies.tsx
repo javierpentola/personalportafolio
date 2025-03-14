@@ -9,7 +9,7 @@ import esUI from "@/data/studiesUI/es"
 import zhUI from "@/data/studiesUI/zh"
 import itUI from "@/data/studiesUI/it"
 import frUI from "@/data/studiesUI/fr"
-import { Footer } from "../footer"
+import { Footer } from "./footer"
 
 const uiTranslations = {
   en: enUI,

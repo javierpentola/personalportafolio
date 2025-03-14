@@ -6,7 +6,7 @@ import { ChevronRight, Plus, Minus, ExternalLink } from "lucide-react"
 import { useLanguage } from "@/contexts/LanguageContext"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import { Footer } from "../footer"
+import { Footer } from "./footer"
 
 // Import UI translations
 import enUI from "@/data/designProjectsUI/en"
@@ -197,8 +197,7 @@ export function DesignProjects() {
                           </div>
                           {/* Botón de enlace al proyecto */}
                           <Button
-                            variant="outline"
-                            className="w-full mt-4"
+                            className="border-2 border-black hover:bg-black hover:text-white transition-colors"
                             onClick={() => window.open(project.link, "_blank")}
                           >
                             <ExternalLink className="w-4 h-4 mr-2" />

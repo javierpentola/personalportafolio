@@ -14,7 +14,7 @@ import esProjects from "@/data/softwareProjects/es"
 import zhProjects from "@/data/softwareProjects/zh"
 import itProjects from "@/data/softwareProjects/it"
 import frProjects from "@/data/softwareProjects/fr"
-import { Footer } from "../footer"
+import { Footer } from "./footer"
 
 export function SoftwareProjects() {
   const [activeCategory, setActiveCategory] = useState<string>("all")
