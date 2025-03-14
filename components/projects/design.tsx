@@ -197,8 +197,8 @@ export function DesignProjects() {
                           </div>
                           {/* Botón de enlace al proyecto */}
                           <Button
-                            variant="outline"
-                            className="w-full mt-4"
+                            className="outline"
+                            className="outline w-full mt-4"
                             onClick={() => window.open(project.link, "_blank")}
                           >
                             <ExternalLink className="w-4 h-4 mr-2" />
