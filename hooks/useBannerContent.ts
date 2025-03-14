@@ -3,6 +3,7 @@ import { bannerContent } from "../data/bannerContent"
 
 export const useBannerContent = () => {
   const { language } = useLanguage()
-  return bannerContent[language] || bannerContent.en
+  // Add type assertion or check if language is a valid key
+  return bannerContent[language as keyof typeof bannerContent] || bannerContent.en
 }
 
