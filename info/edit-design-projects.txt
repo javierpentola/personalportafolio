@@ -1,0 +1,54 @@
+Instrucciones para editar los proyectos de diseño
+=================================================
+
+1. Ubicación de los archivos:
+   Los archivos de proyectos de diseño se encuentran en la carpeta "data/designProjects/".
+   Hay un archivo para cada idioma: en.ts, es.ts, zh.ts, it.ts, fr.ts.
+
+2. Estructura de un proyecto:
+   Cada proyecto es un objeto con las siguientes propiedades:
+   - id: Identificador único del proyecto (string)
+   - title: Título del proyecto (string)
+   - category: Categoría del proyecto (string)
+   - year: Año del proyecto (string)
+   - description: Descripción del proyecto (string)
+   - color: Color asociado al proyecto en formato hexadecimal (string)
+   - technologies: Array de tecnologías utilizadas (string[])
+   - collaborators: Array de colaboradores o entidades colaboradoras (string[])
+   - link: Enlace al proyecto (string)
+   - image: URL de la imagen del proyecto (string)
+g
+3. Cómo añadir un nuevo proyecto:
+   a. Abre el archivo del idioma correspondiente (por ejemplo, en.ts para inglés).
+   b. Dentro del array designProjects, añade un nuevo objeto con la estructura mencionada.
+   c. Asegúrate de que el 'id' sea único y no se repita con otros proyectos.
+   d. Repite el proceso para cada archivo de idioma, traduciendo el contenido según corresponda.
+
+4. Cómo editar un proyecto existente:
+   a. Localiza el objeto del proyecto que deseas editar en el archivo del idioma correspondiente.
+   b. Modifica los valores de las propiedades según sea necesario.
+   c. Asegúrate de realizar los mismos cambios en todos los archivos de idiomas para mantener la consistencia.
+
+5. Resolución de imágenes:
+   - Resolución recomendada: 800x600 píxeles
+   - Formato: JPG o PNG
+   - Tamaño máximo recomendado: 300KB
+
+6. Cómo cambiar las imágenes:
+   a. Prepara tu imagen con la resolución recomendada.
+   b. Sube la imagen a tu servidor o a un servicio de alojamiento de imágenes.
+   c. Copia la URL de la imagen.
+   d. Reemplaza el valor de la propiedad 'image' en cada archivo de idioma con la nueva URL.
+
+7. Consideraciones adicionales:
+   - Mantén la consistencia en el estilo y longitud de las descripciones entre proyectos.
+   - Utiliza colores que contrasten bien con el texto blanco para la propiedad 'color'.
+   - Asegúrate de que los enlaces (propiedad 'link') sean válidos y estén actualizados.
+
+8. Después de realizar cambios:
+   - Guarda todos los archivos modificados.
+   - Ejecuta tu aplicación localmente para verificar que los cambios se muestren correctamente.
+   - Realiza un commit y push de los cambios a tu repositorio si estás usando control de versiones.
+
+Recuerda siempre hacer una copia de seguridad antes de realizar cambios significativos en los archivos.
+

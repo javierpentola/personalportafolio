@@ -1,0 +1,88 @@
+# How to Edit Images and Links in the Hip Energy Project Gallery
+
+## Gallery Images
+
+The gallery images for the Hip Energy project are located in the `components/hip_proyecto_hero.tsx` file. To change these images, follow these steps:
+
+1. Locate the gallery section in the `hip_proyecto_hero.tsx` file (around line 500, in the section with the heading that says "GALLERY")
+
+2. Find the Image components that look like this:
+\`\`\`jsx
+<Image
+  src="/placeholder.svg?height=400&width=600"
+  alt="Design Preview 1"
+  width={600}
+  height={400}
+  className="w-full h-48 sm:h-64 object-cover mb-4"
+/>
+\`\`\`
+
+3. Replace the `src` attribute with the path to your new image. You can:
+   - Use a public URL: `src="https://example.com/your-image.jpg"`
+   - Use a local image from the public folder: `src="/images/your-image.jpg"`
+   - Use an image from Vercel Blob Storage (as seen in the logo): `src="https://yourproject.public.blob.vercel-storage.com/image-name.jpg"`
+
+4. Update the `alt` attribute to properly describe your new image for accessibility
+
+5. Adjust the `width` and `height` attributes to match your image's dimensions
+
+6. If needed, adjust the `className` to control how the image is displayed
+
+## Example
+
+Change this:
+\`\`\`jsx
+<Image
+  src="/placeholder.svg?height=400&width=600"
+  alt="Design Preview 1"
+  width={600}
+  height={400}
+  className="w-full h-48 sm:h-64 object-cover mb-4"
+/>
+\`\`\`
+
+To this:
+\`\`\`jsx
+<Image
+  src="https://yourproject.public.blob.vercel-storage.com/hip-energy-dashboard.jpg"
+  alt="Hip Energy Dashboard Interface"
+  width={600}
+  height={400}
+  className="w-full h-48 sm:h-64 object-cover mb-4"
+/>
+\`\`\`
+
+## Links
+
+The project links (LIVE VIEW, BRANDBOOK, GITHUB ADMIN, MOBILE APP) are also in the `hip_proyecto_hero.tsx` file. To change these:
+
+1. Find the buttons section (around line 400)
+
+2. Each button uses the `openGoogleInNewTab` function which currently opens Google in a new tab
+
+3. To change the link destination, modify the function or create a new function for each button:
+
+\`\`\`jsx
+// Change this
+const openGoogleInNewTab = () => {
+  window.open("https://www.google.com", "_blank", "noopener,noreferrer")
+}
+
+// To something like this
+const openLiveView = () => {
+  window.open("https://hip-energy.example.com", "_blank", "noopener,noreferrer")
+}
+const openBrandbook = () => {
+  window.open("https://hip-energy.example.com/brandbook", "_blank", "noopener,noreferrer")
+}
+\`\`\`
+
+4. Then update each button's onClick handler to use the appropriate function
+
+## Important Notes
+
+- Always use the `_blank` target with `noopener,noreferrer` for security when opening external links
+- Make sure your images are optimized for web (compressed, appropriate dimensions)
+- If using local images, place them in the public folder of your Next.js project
+- For best performance, consider using a CDN or Vercel's Blob Storage for hosting images
+

@@ -1,0 +1,56 @@
+Cómo editar el proyecto Bauhaus Portfolio
+
+1. Estructura del proyecto:
+   El proyecto está organizado en varias carpetas principales:
+   - app: Contiene los archivos principales de la aplicación Next.js
+   - components: Contiene los componentes React reutilizables
+   - contexts: Contiene los contextos de React, como el LanguageContext
+   - data: Contiene los archivos de datos para diferentes idiomas y secciones
+   - lib: Contiene utilidades y funciones auxiliares
+   - public: Contiene archivos estáticos como imágenes
+
+2. Edición de componentes:
+   - Los componentes principales se encuentran en la carpeta "components"
+   - Cada componente tiene su propio archivo .tsx
+   - Para editar un componente, abra el archivo correspondiente y realice los cambios necesarios
+
+3. Modificación de contenido:
+   - El contenido está organizado por idiomas en la carpeta "data"
+   - Cada sección (about, education, experience, etc.) tiene su propia subcarpeta
+   - Para modificar el contenido, edite los archivos .ts correspondientes al idioma deseado
+
+4. Proyectos destacados (Featured Projects):
+   - Los proyectos destacados se encuentran en la carpeta "data/featuredProjects"
+   - Cada idioma tiene su propio archivo (en.ts, es.ts, zh.ts, it.ts, fr.ts)
+   - Para editar un proyecto destacado:
+     a. Abra el archivo del idioma correspondiente en "data/featuredProjects"
+     b. Modifique la información del proyecto (título, descripción, tecnologías, etc.)
+     c. Si necesita añadir un nuevo proyecto, siga el formato existente y asigne un nuevo ID único
+   - El componente que muestra los proyectos destacados está en "components/featured-projects/index.tsx"
+   - La tarjeta individual de cada proyecto está en "components/featured-projects/ProjectCard.tsx"
+   - Para modificar la estructura o el diseño de los proyectos destacados, edite estos archivos
+
+5. Añadir nuevos idiomas:
+   - Cree nuevos archivos de traducción en cada subcarpeta de "data" con el código de idioma correspondiente
+   - Asegúrese de crear un nuevo archivo para los proyectos destacados en "data/featuredProjects"
+   - Actualice el LanguageContext en "contexts/LanguageContext.tsx" para incluir el nuevo idioma
+
+6. Estilos:
+   - El proyecto utiliza Tailwind CSS para los estilos
+   - Los estilos personalizados se pueden añadir en el archivo "tailwind.config.js"
+
+7. Añadir nuevas páginas:
+   - Cree un nuevo archivo .tsx en la carpeta "app"
+   - Asegúrese de importar los componentes necesarios y utilizar el LanguageContext si es necesario
+
+8. Configuración:
+   - El archivo "next.config.js" contiene la configuración de Next.js
+   - El archivo "package.json" lista las dependencias del proyecto
+
+9. Despliegue:
+   - Asegúrese de que todas las dependencias estén instaladas con `npm install`
+   - Para construir el proyecto, ejecute `npm run build`
+   - Para iniciar el servidor de producción, ejecute `npm start`
+
+Recuerde siempre probar los cambios localmente antes de desplegarlos en producción.
+
