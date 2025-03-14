@@ -2,8 +2,8 @@
 
 import { useEffect, useState, useRef } from "react"
 import { useAnimationFrame, motion } from "framer-motion"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { uiUxDesignContent } from "@/data/uiUxDesignContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { uiUxDesignContent } from "../data/uiUxDesignContent"
 
 export const UiUxDesign = () => {
   const { language } = useLanguage()

@@ -3,12 +3,12 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Mail, Phone, Copy, Check } from "lucide-react"
 import { useState, useEffect } from "react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import enContent from "@/data/navContent/en"
-import esContent from "@/data/navContent/es"
-import zhContent from "@/data/navContent/zh"
-import itContent from "@/data/navContent/it"
-import frContent from "@/data/navContent/fr"
+import { useLanguage } from "../contexts/LanguageContext"
+import enContent from "../data/navContent/en"
+import esContent from "../data/navContent/es"
+import zhContent from "../data/navContent/zh"
+import itContent from "../data/navContent/it"
+import frContent from "../data/navContent/fr"
 
 const contentTranslations = { en: enContent, es: esContent, zh: zhContent, it: itContent, fr: frContent }
 

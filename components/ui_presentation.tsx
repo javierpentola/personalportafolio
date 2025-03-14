@@ -3,8 +3,8 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { FileText, Book, Palette, Download } from "lucide-react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { uiPresentationContent } from "@/data/uiPresentationContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { uiPresentationContent } from "../data/uiPresentationContent"
 
 export function UiPresentation() {
   const { language } = useLanguage()

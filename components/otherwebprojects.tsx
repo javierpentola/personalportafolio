@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
-import { useLanguage } from "@/contexts/LanguageContext"
-import * as otherWebProjectsContent from "@/data/otherWebProjectsContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import * as otherWebProjectsContent from "../data/otherWebProjectsContent"
 import { ExternalLink, Eye, Settings } from "lucide-react"
 
 // Componente para patrones geométricos Bauhaus

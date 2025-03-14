@@ -2,23 +2,23 @@
 
 import { motion } from "framer-motion"
 import { useState, useEffect, useRef } from "react"
-import { useLanguage } from "@/contexts/LanguageContext"
+import { useLanguage } from "../contexts/LanguageContext"
 import { Circle, ArrowRight } from "lucide-react"
 import { Footer } from "./footer"
 
 // Import UI translations
-import enUI from "@/data/experienceUI/en"
-import esUI from "@/data/experienceUI/es"
-import zhUI from "@/data/experienceUI/zh"
-import itUI from "@/data/experienceUI/it"
-import frUI from "@/data/experienceUI/fr"
+import enUI from "../data/experienceUI/en"
+import esUI from "../data/experienceUI/es"
+import zhUI from "../data/experienceUI/zh"
+import itUI from "../data/experienceUI/it"
+import frUI from "../data/experienceUI/fr"
 
 // Import experience data
-import enData from "@/data/experience/en"
-import esData from "@/data/experience/es"
-import zhData from "@/data/experience/zh"
-import itData from "@/data/experience/it"
-import frData from "@/data/experience/fr"
+import enData from "../data/experience/en"
+import esData from "../data/experience/es"
+import zhData from "../data/experience/zh"
+import itData from "../data/experience/it"
+import frData from "../data/experience/fr"
 
 const uiTranslations = { en: enUI, es: esUI, zh: zhUI, it: itUI, fr: frUI }
 const experienceTranslations = { en: enData, es: esData, zh: zhData, it: itData, fr: frData }

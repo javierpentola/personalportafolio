@@ -3,22 +3,22 @@
 import { motion, useMotionValue, useSpring } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
 import { DiplomaModal } from "./diploma-modal"
-import { useLanguage } from "@/contexts/LanguageContext"
+import { useLanguage } from "../contexts/LanguageContext"
 import { Footer } from "./footer"
 
 // Import UI translations
-import enUI from "@/data/educationUI/en"
-import esUI from "@/data/educationUI/es"
-import zhUI from "@/data/educationUI/zh"
-import itUI from "@/data/educationUI/it"
-import frUI from "@/data/educationUI/fr"
+import enUI from "../data/educationUI/en"
+import esUI from "../data/educationUI/es"
+import zhUI from "../data/educationUI/zh"
+import itUI from "../data/educationUI/it"
+import frUI from "../data/educationUI/fr"
 
 // Import education data
-import enData from "@/data/education/en"
-import esData from "@/data/education/es"
-import zhData from "@/data/education/zh"
-import itData from "@/data/education/it"
-import frData from "@/data/education/fr"
+import enData from "../data/education/en"
+import esData from "../data/education/es"
+import zhData from "../data/education/zh"
+import itData from "../data/education/it"
+import frData from "../data/education/fr"
 
 const uiTranslations = { en: enUI, es: esUI, zh: zhUI, it: itUI, fr: frUI }
 const educationTranslations = { en: enData, es: esData, zh: zhData, it: itData, fr: frData }

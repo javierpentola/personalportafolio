@@ -3,8 +3,8 @@
 import type React from "react"
 
 import { motion } from "framer-motion"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { footerContent } from "@/data/footerContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { footerContent } from "../data/footerContent"
 
 interface FooterProps {
   setActiveSection?: (section: string) => void

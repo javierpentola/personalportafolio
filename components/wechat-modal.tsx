@@ -3,8 +3,8 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { X } from "lucide-react"
 import { useEffect } from "react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { wechatModalContent } from "@/data/wechatModalContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { wechatModalContent } from "../data/wechatModalContent"
 
 interface WeChatModalProps {
   isOpen: boolean

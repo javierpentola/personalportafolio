@@ -2,13 +2,13 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight, Book, Calendar, Clock, ExternalLink, Github } from "lucide-react"
-import { allStudyProjects } from "@/data/projects/en/studies"
-import { useLanguage } from "@/contexts/LanguageContext"
-import enUI from "@/data/studiesUI/en"
-import esUI from "@/data/studiesUI/es"
-import zhUI from "@/data/studiesUI/zh"
-import itUI from "@/data/studiesUI/it"
-import frUI from "@/data/studiesUI/fr"
+import { allStudyProjects } from "../data/projects/en/studies"
+import { useLanguage } from "../contexts/LanguageContext"
+import enUI from "../data/studiesUI/en"
+import esUI from "../data/studiesUI/es"
+import zhUI from "../data/studiesUI/zh"
+import itUI from "../data/studiesUI/it"
+import frUI from "../data/studiesUI/fr"
 import { Footer } from "./footer"
 
 const uiTranslations = {

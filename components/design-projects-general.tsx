@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { designProjectsGeneralContent } from "@/data/designProjectsGeneralContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { designProjectsGeneralContent } from "../data/designProjectsGeneralContent"
 
 const galleryImages = [
   { src: "/images/poster1.jpg", alt: " " },

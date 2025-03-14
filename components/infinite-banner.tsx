@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react"
 import { useAnimationFrame, motion } from "framer-motion"
-import { useBannerContent } from "@/hooks/useBannerContent"
+import { useBannerContent } from "../hooks/useBannerContent"
 
 export const InfiniteBanner = () => {
   const content = useBannerContent()

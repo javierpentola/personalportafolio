@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useLanguage } from "@/contexts/LanguageContext"
+import { useLanguage } from "../contexts/LanguageContext"
 import {
   ExternalLink,
   Code,

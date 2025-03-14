@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from "react"
 import { useAnimationFrame, motion } from "framer-motion"
-import { useLanguage } from "@/contexts/LanguageContext"
+import { useLanguage } from "../contexts/LanguageContext"
 
 const translations = {
   en: "WEB DEVELOPMENT",

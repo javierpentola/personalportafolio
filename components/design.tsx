@@ -3,24 +3,24 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"
 import { ChevronRight, Plus, Minus, ExternalLink } from "lucide-react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { Button } from "@/components/ui/button"
+import { useLanguage } from "../contexts/LanguageContext"
+import { Button } from "../components/ui/button"
 import Image from "next/image"
 import { Footer } from "./footer"
 
 // Import UI translations
-import enUI from "@/data/designProjectsUI/en"
-import esUI from "@/data/designProjectsUI/es"
-import zhUI from "@/data/designProjectsUI/zh"
-import itUI from "@/data/designProjectsUI/it"
-import frUI from "@/data/designProjectsUI/fr"
+import enUI from "../data/designProjectsUI/en"
+import esUI from "../data/designProjectsUI/es"
+import zhUI from "../data/designProjectsUI/zh"
+import itUI from "../data/designProjectsUI/it"
+import frUI from "../data/designProjectsUI/fr"
 
 // Import project data
-import enProjects from "@/data/designProjects/en"
-import esProjects from "@/data/designProjects/es"
-import zhProjects from "@/data/designProjects/zh"
-import itProjects from "@/data/designProjects/it"
-import frProjects from "@/data/designProjects/fr"
+import enProjects from "../data/designProjects/en"
+import esProjects from "../data/designProjects/es"
+import zhProjects from "../data/designProjects/zh"
+import itProjects from "../data/designProjects/it"
+import frProjects from "../data/designProjects/fr"
 
 const uiTranslations = { en: enUI, es: esUI, zh: zhUI, it: itUI, fr: frUI }
 const projectTranslations = { en: enProjects, es: esProjects, zh: zhProjects, it: itProjects, fr: frProjects }

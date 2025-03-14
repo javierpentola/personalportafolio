@@ -5,12 +5,12 @@ import Image from "next/image"
 import { ExternalLink, Github, Smartphone, Book } from "lucide-react"
 import { motion } from "framer-motion"
 import { Code, Figma, FileType, Database, Palette, GitBranch, Server, Zap, Laptop } from "lucide-react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import enContent from "@/data/hipProyectoHero/en"
-import esContent from "@/data/hipProyectoHero/es"
-import frContent from "@/data/hipProyectoHero/fr"
-import itContent from "@/data/hipProyectoHero/it"
-import zhContent from "@/data/hipProyectoHero/zh"
+import { useLanguage } from "../contexts/LanguageContext"
+import enContent from "../data/hipProyectoHero/en"
+import esContent from "../data/hipProyectoHero/es"
+import frContent from "../data/hipProyectoHero/fr"
+import itContent from "../data/hipProyectoHero/it"
+import zhContent from "../data/hipProyectoHero/zh"
 
 const contentTranslations = { en: enContent, es: esContent, fr: frContent, it: itContent, zh: zhContent }
 

@@ -1,8 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { otherProjectsContent } from "@/data/otherProjectsContent"
+import { useLanguage } from "../contexts/LanguageContext"
+import { otherProjectsContent } from "../data/otherProjectsContent"
 
 export function OtherProjects() {
   const { language } = useLanguage()
