@@ -44,8 +44,8 @@ interface ResumeUI {
   educationInstitution: string
   educationPeriod: string
   viewDiploma: string
-  languages: string
-  viewCertificate: string
+  languages?: string  // Make optional with ?
+  viewCertificate?: string  // Make optional with ?
 }
 
 const uiTranslations: Record<string, ResumeUI> = { en: enUI, es: esUI, zh: zhUI, it: itUI, fr: frUI }
