@@ -2,16 +2,16 @@
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Hero } from "@/components/hero"
-import { Education } from "@/components/education"
-import { Experience } from "@/components/experience"
-import { DesignProjects } from "@/components/projects/design"
-import { SoftwareProjects } from "@/components/projects/software"
-import { PersonalStudies } from "@/components/projects/studies"
-import { Contact } from "@/components/contact"
-import { Resume } from "@/components/resume"
-import { GitHub } from "@/components/github"
-import { Nav } from "@/components/nav"
+import { Hero } from "../components/hero"
+import { Education } from "../components/education"
+import { Experience } from "../components/experience"
+import { DesignProjects } from "../components/projects/design"
+import { SoftwareProjects } from "../components/projects/software"
+import { PersonalStudies } from "../components/projects/studies"
+import { Contact } from "../components/contact"
+import { Resume } from "../components/resume"
+import { GitHub } from "../components/github"
+import { Nav } from "../components/nav"
 
 export default function Page() {
   const [activeSection, setActiveSection] = useState("home")
