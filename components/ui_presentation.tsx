@@ -269,7 +269,7 @@ export function UiPresentation() {
             transition={{ duration: 0.5, delay: 1.2 }}
           >
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20241101-WA0013.jpg-2GXI4PCz5nBp95qvOuJ6nN0QCWujXH.jpeg"
+              src="/images/logozaro.jpeg"
               alt="ZARO Logo"
               width={240}
               height={60}

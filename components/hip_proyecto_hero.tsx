@@ -202,7 +202,7 @@ export const HipProyectoHero: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="relative w-48 h-48 mx-auto">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20250304_143316_619.jpg-S3N09fi5WOf6iY4Tr3i10ySD3f5Woc.jpeg"
+              src="/images/logohip.png"
               alt="Hip Energy Logo"
               fill
               className="object-contain"
