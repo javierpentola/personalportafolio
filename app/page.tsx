@@ -5,9 +5,6 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Hero } from "../components/hero"
 import { Education } from "../components/education"
 import { Experience } from "../components/experience"
-import { DesignProjects } from "../components/projects/design"
-import { SoftwareProjects } from "../components/projects/software"
-import { PersonalStudies } from "../components/projects/studies"
 import { Contact } from "../components/contact"
 import { Resume } from "../components/resume"
 import { GitHub } from "../components/github"
@@ -19,9 +16,6 @@ export default function Page() {
   const sections = {
     home: <Hero />,
     education: <Education />,
-    "projects-design": <DesignProjects />,
-    "projects-software": <SoftwareProjects />,
-    "projects-studies": <PersonalStudies />,
     experience: <Experience />,
     contact: <Contact setActiveSection={setActiveSection} />,
     resume: <Resume />,
