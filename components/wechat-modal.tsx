@@ -13,7 +13,7 @@ interface WeChatModalProps {
 
 export function WeChatModal({ isOpen, onClose }: WeChatModalProps) {
   const { language } = useLanguage()
-  const content = wechatModalContent[language]
+  const content = wechatModalContent[language as keyof typeof wechatModalContent] || wechatModalContent.en
 
   // Prevenir el desplazamiento cuando el modal está abierto
   useEffect(() => {
