@@ -8,7 +8,6 @@ import { Experience } from "@/components/experience"
 import { DesignProjects } from "@/components/projects/design"
 import { SoftwareProjects } from "@/components/projects/software"
 import { PersonalStudies } from "@/components/projects/studies"
-import { FeaturedProjects } from "@/components/featured-projects"
 import { Contact } from "@/components/contact"
 import { Resume } from "@/components/resume"
 import { GitHub } from "@/components/github"
@@ -24,7 +23,6 @@ export default function Page() {
     "projects-design": <DesignProjects />,
     "projects-software": <SoftwareProjects />,
     "projects-studies": <PersonalStudies />,
-    featured: <FeaturedProjects />,
     experience: <Experience />,
     contact: <Contact />,
     resume: <Resume />,
