@@ -6,16 +6,16 @@ import { useLanguage } from "@/contexts/LanguageContext"
 import { Footer } from "@/components/footer"
 
 // Import translations and data
-import enUI from "@/data/contactUI/en"
-import esUI from "@/data/contactUI/es"
-import zhUI from "@/data/contactUI/zh"
-import itUI from "@/data/contactUI/it"
-import frUI from "@/data/contactUI/fr"
-import enData from "@/data/contactData/en"
-import esData from "@/data/contactData/es"
-import zhData from "@/data/contactData/zh"
-import itData from "@/data/contactData/it"
-import frData from "@/data/contactData/fr"
+import enUI from "../data/contactUI/en"
+import esUI from "../data/contactUI/es"
+import zhUI from "../data/contactUI/zh"
+import itUI from "../data/contactUI/it"
+import frUI from "../data/contactUI/fr"
+import enData from "../data/contactData/en"
+import esData from "../data/contactData/es"
+import zhData from "../data/contactData/zh"
+import itData from "../data/contactData/it"
+import frData from "../data/contactData/fr"
 
 interface ContactProps {
   setActiveSection?: (section: string) => void
