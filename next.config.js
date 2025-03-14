@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': __dirname,
-    };
-    return config;
+  images: {
+    domains: ["placeholder.com", "hebbkx1anhila5yf.public.blob.vercel-storage.com", "picsum.photos"],
   },
 }
 
