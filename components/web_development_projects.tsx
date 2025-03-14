@@ -247,6 +247,14 @@ const openCLATutor = () => {
   window.open("https://cla-pv.vercel.app/", "_blank", "noopener,noreferrer")
 }
 
+const openCLABrandbook = () => {
+  window.open(
+    "https://drive.google.com/file/d/165fTPwjEczigzGkExVoGxriTjdaSRHGu/view?usp=sharing",
+    "_blank",
+    "noopener,noreferrer",
+  )
+}
+
 const openOSeno = () => {
   window.open("https://playful-face-dance.vercel.app/", "_blank", "noopener,noreferrer")
 }
@@ -658,15 +666,27 @@ export function WebDevelopmentProjects() {
             </div>
 
             <div className="p-6 pt-0">
-              <motion.button
-                onClick={openCLATutor}
-                className="w-full px-6 py-2 bg-white text-[#1A237E] font-mono text-sm rounded-full flex items-center justify-center gap-2"
-                whileHover={{ scale: 1.05, backgroundColor: "#FDD835" }}
-                transition={{ duration: 0.2 }}
-              >
-                <span>{content.viewLive}</span>
-                <ExternalLink className="w-4 h-4" />
-              </motion.button>
+              <div className="flex gap-2">
+                <motion.button
+                  onClick={openCLATutor}
+                  className="flex-1 px-4 py-2 bg-white text-[#1A237E] font-mono text-xs rounded-full flex items-center justify-center gap-1"
+                  whileHover={{ scale: 1.05, backgroundColor: "#FDD835" }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <span>{content.viewLive}</span>
+                  <ExternalLink className="w-3 h-3" />
+                </motion.button>
+
+                <motion.button
+                  onClick={openCLABrandbook}
+                  className="flex-1 px-4 py-2 bg-[#FDD835] text-[#1A237E] font-mono text-xs rounded-full flex items-center justify-center gap-1"
+                  whileHover={{ scale: 1.05, backgroundColor: "white" }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <span>BRANDBOOK</span>
+                  <Book className="w-3 h-3" />
+                </motion.button>
+              </div>
             </div>
           </motion.div>
 
