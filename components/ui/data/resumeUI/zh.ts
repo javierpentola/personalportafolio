@@ -1,0 +1,30 @@
+export const resumeUI = {
+  cv: "简历",
+  title: "简×历",
+  downloadPDF: "下载PDF",
+  position: "前端开发工程师",
+  secondaryPosition: "设计师",
+  experience: "工作经验",
+  years: "年",
+  experienceCompany1: "Hong Nan",
+  experienceCompany2: "萨拉戈萨市政府",
+  experiencePeriod1: "2024 - 至今",
+  experiencePeriod2: "2023 - 2024",
+  experiencePoint1: "开发和设计创新的网络应用",
+  experiencePoint2: "与国际团队合作开展前沿项目",
+  experiencePoint3: "�������施现代前端技术和设计原则",
+  skillsTitle: "技能",
+  skills: ["React", "Next.js", "TypeScript", "UI/UX", "敏捷开发", "Git", "Node.js", "CSS", "HTML", "设计"],
+  education: "教育背景",
+  degree: "设计学士",
+  educationInstitution: "卡勒马尼大学",
+  educationPeriod: "2021 - 2024",
+  degreeDescription: "",
+  viewDiploma: "查看文凭",
+  commits: "提交",
+  branches: "分支",
+  releases: "发布",
+}
+
+export default resumeUI
+

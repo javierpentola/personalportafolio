@@ -1,0 +1,81 @@
+import type { DesignProject } from "./types"
+
+export const designProjects: DesignProject[] = [
+  {
+    id: "quantum-type",
+    title: "量子排版",
+    category: "排版",
+    year: "2024",
+    description:
+      "受量子力学原理启发的实验性字体设计。每个字母根据观众的互动而变形。",
+    color: "#E53935",
+    technologies: ["Glyphs", "Processing", "JavaScript"],
+    collaborators: ["物理实验室X", "数字艺术研究所"],
+    link: "https://example.com/quantum-typography",
+    image: "https://picsum.photos/seed/quantum-type/800/600",
+  },
+  {
+    id: "neo-bauhaus",
+    title: "新包豪斯节",
+    category: "展览",
+    year: "2023",
+    description: "数字时代包豪斯原则的当代诠释展览设计。",
+    color: "#1E88E5",
+    technologies: ["3D打印", "AR", "投影映射"],
+    collaborators: ["现代艺术博物馆", "科技创新公司"],
+    link: "https://example.com/neo-bauhaus",
+    image: "https://picsum.photos/seed/neo-bauhaus/800/600",
+  },
+  {
+    id: "ai-poetry",
+    title: "AI诗歌书籍",
+    category: "编辑",
+    year: "2024",
+    description:
+      "由AI生成的诗歌系列书籍，具有动态排版设计，能够响应情感内容。",
+    color: "#FDD835",
+    technologies: ["InDesign", "Python", "GPT-4"],
+    collaborators: ["文学AI实验室", "前卫出版社"],
+    link: "https://example.com/ai-poetry",
+    image: "https://picsum.photos/seed/ai-poetry/800/600",
+  },
+  {
+    id: "data-sculpture",
+    title: "数据雕塑",
+    category: "数字",
+    year: "2023",
+    description: "社交媒体数据的实时3D可视化，创建抽象的数字雕塑。",
+    color: "#43A047",
+    technologies: ["Three.js", "WebGL", "实时数据"],
+    collaborators: ["数据艺术集体", "社交媒体实验室"],
+    link: "https://example.com/data-sculpture",
+    image: "https://picsum.photos/seed/data-sculpture/800/600",
+  },
+  {
+    id: "kinetic-brand",
+    title: "动态品牌设计",
+    category: "品牌",
+    year: "2024",
+    description: "根据公司绩效指标演变的动态品牌识别系统。",
+    color: "#5E35B1",
+    technologies: ["After Effects", "Python", "品牌分析"],
+    collaborators: ["未来品牌公司", "数据可视化团队"],
+    link: "https://example.com/kinetic-branding",
+    image: "https://picsum.photos/seed/kinetic-brand/800/600",
+  },
+  {
+    id: "virtual-dance",
+    title: "虚拟舞蹈排版",
+    category: "动态",
+    year: "2023",
+    description: "根据舞蹈动作变形的动作捕捉排版。",
+    color: "#00ACC1",
+    technologies: ["Cinema 4D", "动作捕捉", "自定义软件"],
+    collaborators: ["舞蹈公司X", "动作实验室"],
+    link: "https://example.com/virtual-dance",
+    image: "https://picsum.photos/seed/virtual-dance/800/600",
+  },
+]
+
+export default designProjects
+

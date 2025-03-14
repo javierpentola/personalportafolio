@@ -1,0 +1,81 @@
+import type { DesignProject } from "./types"
+
+export const designProjects: DesignProject[] = [
+  {
+    id: "quantum-type",
+    title: "Tipografía Cuántica",
+    category: "tipografía",
+    year: "2024",
+    description:
+      "Diseño experimental de tipografía inspirado en los principios de la mecánica cuántica. Cada letra se transforma según la interacción del espectador.",
+    color: "#E53935",
+    technologies: ["Glyphs", "Processing", "JavaScript"],
+    collaborators: ["Laboratorio de Física X", "Instituto de Artes Digitales"],
+    link: "https://example.com/quantum-typography",
+    image: "https://picsum.photos/seed/quantum-type/800/600",
+  },
+  {
+    id: "neo-bauhaus",
+    title: "Festival Neo-Bauhaus",
+    category: "exposición",
+    year: "2023",
+    description: "Diseño de exposición para una interpretación contemporánea de los principios Bauhaus en la era digital.",
+    color: "#1E88E5",
+    technologies: ["Impresión 3D", "AR", "Mapeo de Proyección"],
+    collaborators: ["Museo de Arte Moderno", "Empresa Innovadora de Tecnología"],
+    link: "https://example.com/neo-bauhaus",
+    image: "https://picsum.photos/seed/neo-bauhaus/800/600",
+  },
+  {
+    id: "ai-poetry",
+    title: "Libros de Poesía AI",
+    category: "editorial",
+    year: "2024",
+    description:
+      "Serie de libros con poesía generada por IA, con diseños tipográficos dinámicos que responden al contenido emocional.",
+    color: "#FDD835",
+    technologies: ["InDesign", "Python", "GPT-4"],
+    collaborators: ["Laboratorio de IA Literaria", "Prensa de Vanguardia"],
+    link: "https://example.com/ai-poetry",
+    image: "https://picsum.photos/seed/ai-poetry/800/600",
+  },
+  {
+    id: "data-sculpture",
+    title: "Esculturas de Datos",
+    category: "digital",
+    year: "2023",
+    description: "Visualizaciones 3D en tiempo real de datos de redes sociales, creando esculturas digitales abstractas.",
+    color: "#43A047",
+    technologies: ["Three.js", "WebGL", "Datos en Tiempo Real"],
+    collaborators: ["Colectivo de Arte de Datos", "Laboratorio de Redes Sociales"],
+    link: "https://example.com/data-sculpture",
+    image: "https://picsum.photos/seed/data-sculpture/800/600",
+  },
+  {
+    id: "kinetic-brand",
+    title: "Branding Cinético",
+    category: "marca",
+    year: "2024",
+    description: "Sistema de identidad de marca dinámico que evoluciona según las métricas de rendimiento de la empresa.",
+    color: "#5E35B1",
+    technologies: ["After Effects", "Python", "Análisis de Marca"],
+    collaborators: ["Marcas del Futuro Inc.", "Equipo de Visualización de Datos"],
+    link: "https://example.com/kinetic-branding",
+    image: "https://picsum.photos/seed/kinetic-brand/800/600",
+  },
+  {
+    id: "virtual-dance",
+    title: "Tipografía de Danza Virtual",
+    category: "movimiento",
+    year: "2023",
+    description: "Tipografía de captura de movimiento que se transforma según los movimientos de danza.",
+    color: "#00ACC1",
+    technologies: ["Cinema 4D", "Captura de Movimiento", "Software Personalizado"],
+    collaborators: ["Compañía de Danza X", "Laboratorio de Movimiento"],
+    link: "https://example.com/virtual-dance",
+    image: "https://picsum.photos/seed/virtual-dance/800/600",
+  },
+]
+
+export default designProjects
+

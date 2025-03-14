@@ -1,0 +1,30 @@
+export const resumeUI = {
+  cv: "CV",
+  title: "CU×RRICULUM",
+  downloadPDF: "DESCARGAR PDF",
+  position: "Desarrollador Front-End",
+  secondaryPosition: "Diseñador",
+  experience: "Experiencia",
+  years: "Años",
+  experienceCompany1: "Hong Nan",
+  experienceCompany2: "Ayuntamiento de Zaragoza",
+  experiencePeriod1: "2024 - Presente",
+  experiencePeriod2: "2023 - 2024",
+  experiencePoint1: "Desarrollar y diseñar aplicaciones web innovadoras",
+  experiencePoint2: "Colaborar con equipos internacionales en proyectos de vanguardia",
+  experiencePoint3: "Implementar tecnologías front-end modernas y principios de diseño",
+  skillsTitle: "Habilidades",
+  skills: ["React", "Next.js", "TypeScript", "UI/UX", "Agile", "Git", "Node.js", "CSS", "HTML", "Diseño"],
+  education: "Educación",
+  degree: "Grado en Diseño",
+  educationInstitution: "Universitat Carlemany",
+  educationPeriod: "2021 - 2024",
+  degreeDescription: "",
+  viewDiploma: "VER DIPLOMA",
+  commits: "commits",
+  branches: "ramas",
+  releases: "versiones",
+}
+
+export default resumeUI
+
