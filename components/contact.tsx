@@ -2,8 +2,8 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useRef, useEffect } from "react"
 import { Mail, Phone, MapPin, Github, MessageCircle } from "lucide-react"
-import { useLanguage } from "@/contexts/LanguageContext"
-import { Footer } from "@/components/footer"
+import { useLanguage } from "../contexts/LanguageContext"
+import { Footer } from "../components/footer"
 
 // Import translations and data
 import enUI from "../data/contactUI/en"
