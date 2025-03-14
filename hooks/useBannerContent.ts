@@ -1,24 +1,17 @@
-import { useLanguage } from "../contexts/LanguageContext"
+"use client"
 
-// Define banner content type
-interface BannerContent {
-  title: string;
-  subtitle: string;
+import { useLanguage } from "@/contexts/LanguageContext"
+import { bannerContent } from "@/data/bannerContent"
+
+export type BannerContent = {
+  featured: string
+  project: string
+  design: string
+  development: string
 }
 
-// Define banner content for different languages
-const bannerContent: Record<string, BannerContent> = {
-  en: {
-    title: "Welcome",
-    subtitle: "Portfolio"
-  },
-  es: {
-    title: "Bienvenido",
-    subtitle: "Portafolio"
-  }
-}
-
-export const useBannerContent = () => {
+export function useBannerContent(): BannerContent {
   const { language } = useLanguage()
-  return bannerContent[language] || bannerContent.en
+  return bannerContent[language] as BannerContent
 }
+
